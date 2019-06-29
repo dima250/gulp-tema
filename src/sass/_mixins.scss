@@ -1,0 +1,15 @@
+@mixin zagolovok {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: $red;
+  font-size: 25px;
+}
+@mixin img {
+  max-width: 100%;
+  height: auto;
+}
+@mixin body {
+  font-size: 18px;
+  background: $white;
+  font-family: OpenSans-Regular;
+}

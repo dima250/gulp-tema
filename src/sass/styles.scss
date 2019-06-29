@@ -1,0 +1,20 @@
+@import "core";
+@import url("fonts.css");
+body {
+  @include body;
+}
+h1,h2,h3,h4,h6 {
+@include zagolovok;
+  font-family: "OpenSans-ExtraBold";
+}
+img {
+  @include img;
+}
+a {
+  color: $red;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: $red;
+}
